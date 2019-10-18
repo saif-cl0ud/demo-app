@@ -13,7 +13,8 @@ app.config.from_pyfile('config.py')
 
 # Code to connect to the flaskr database from config
 # Adding comment
-# adding one more comment`
+# adding one more comment
+# adding third comment`
 def connect_db():
     """ Connects to the database """
     rv = sqlite3.connect(app.config['DATABASE'])
