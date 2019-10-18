@@ -12,7 +12,8 @@ app.config.from_pyfile('config.py')
 #objstr = objectstore.ObjectStore(app.config['KEYSTONE_AUTH_URL'], app.config['SWIFT_USER'], app.config['SWIFT_PASS'], app.config['TENANT_NAME'], app.config['KEYSTONE_AUTH_VERSION'], app.config['CONTAINER'], app.config['SWIFT_CONTAINER_BASE_PATH'])
 
 # Code to connect to the flaskr database from config
-# Adding comment`
+# Adding comment
+# adding one more comment`
 def connect_db():
     """ Connects to the database """
     rv = sqlite3.connect(app.config['DATABASE'])
